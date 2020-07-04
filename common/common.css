@@ -1,0 +1,114 @@
+.play-grid{
+  padding:20rpx;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30rpx 30rpx;
+	}
+.play-center{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.play-start{
+	display: flex;
+	/* align-items:flex-start; */
+}
+.play-end{
+	display: flex;
+	align-items:flex-end;
+}
+.play-column{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.space-between{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.space-around{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.p-2{
+	padding: 20rpx;
+}
+
+.pt-2{
+	padding: 20rpx;
+	padding-top:0;
+}
+.pb-2{
+	padding: 20rpx;
+	padding-bottom:0;
+}
+.m-1{
+	margin:10rpx;
+}
+.m-2{
+	margin:20rpx;
+}
+.mb-1{
+	margin-bottom: 10rpx;
+}
+.mt-1{
+	margin-top: 10rpx;
+}
+.mt-2{
+	margin-top: 20rpx;
+}
+.mbt-1{
+	margin: 10rpx 0;
+}
+.mr-2{
+	margin-right: 20rpx;
+}
+.right_arrows {
+	width: 16rpx;
+	height: 16rpx;
+	border-top: 1px solid #666;
+	border-right: 1px solid #666;
+	transform: rotate(45deg);
+	/* margin-right: 20rpx; */
+	box-sizing: border-box;
+}
+.down_arrows {
+            width: 20rpx;
+            height: 20rpx;
+            border-top: 1rpx solid #c3c8d6;
+            border-right: 1rpx solid #c3c8d6;
+            transform: rotate(135deg);
+            margin-right:30rpx;
+            margin-top: -6rpx;
+        }
+.text1{
+  white-space: normal;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  -webkit-line-clamp:1;
+  display:-webkit-box;
+  -webkit-box-orient:vertical;
+}
+.search_wrap{
+		background: #ffdc99;
+		padding-bottom: 20rpx;
+		margin-bottom: 60rpx;
+	}
+/*"navigationStyle": "custom" */
+ /* <select name="" id="" style="width: 70%;" >
+	<option value="">--请选择--</option>
+	<option value="">清洁类</option>
+	<option value="">健康类</option>
+	<option value="">代购类</option>
+	<option value="">心理健康类</option>
+	<option value="">康复护理</option>
+	<option value="">--请选择--</option>
+	<option value="">清洁类</option>
+	<option value="">健康类</option>
+	<option value="">代购类</option>
+	<option value="">心理健康类</option>
+	<option value="">康复护理</option>
+</select> */
